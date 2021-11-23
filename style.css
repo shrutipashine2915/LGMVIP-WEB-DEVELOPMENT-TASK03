@@ -1,0 +1,41 @@
+/* *{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+} */
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("01.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+#input {
+    width: 25rem;
+    height: 28rem;
+    
+    position: relative;
+    margin: 6% auto;
+    /* font-weight: bolder; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("02.jpg");
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+input {
+    /* font-weight: bolder; */
+    background-color: rgba(24, 21, 21, 0.8);
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    
+    border-radius: 9px;
+}
+
+p {
+    margin-top: 15px;
+}
